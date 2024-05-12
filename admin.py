@@ -1,6 +1,6 @@
 from Bank_and_info import*
 
-class Admin():
+class Admin:
     def __init__(self, bank) -> None:
         self.bankinfo = Bankinfo(bank)
         self.bank = bank
