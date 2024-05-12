@@ -212,7 +212,7 @@ class Users:
             print("Loan Feature is Off")
         else:
             if self.bankinfo.checking_for_loan(account_number):
-                print(f'Running {self.bank.accounts[account_number]['loan_taken']} Loan and Loan amount is : {self.bank.accounts[account_number]['loan_amount']}')
+                print(f"Running {self.bank.accounts[account_number]['loan_taken']} Loan and Loan amount is : {self.bank.accounts[account_number]['loan_amount']}")
                 while True:
                     print('1. Take a Loan\n2.Dont need any loan\n')
                     i = int(input('Enter Your Choice: '))
